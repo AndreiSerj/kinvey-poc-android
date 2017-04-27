@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="OrbitSync Testing Suite" verbose="2">
+    <listeners>
+        <listener class-name="com.epam.poc.kinvey.core.CustomRPListener" />
+    </listeners>
+
+    <test name="Correct login">
+        <classes>
+            <class name="com.epam.poc.kinvey.CorrectLoginTest" />
+        </classes>
+    </test>
+
+    <test name="Login with wrong password">
+        <classes>
+            <class name="com.epam.poc.kinvey.WrongLoginTest" />
+        </classes>
+    </test>
+
+    <test name="List files and folders">
+        <classes>
+            <class name="com.epam.poc.kinvey.FoldersFilesListTest" />
+        </classes>
+    </test>
+
+    <test name="Open text and image files">
+        <classes>
+            <class name="com.epam.poc.kinvey.OpenFileTest" />
+        </classes>
+    </test>
+
+    <test name="Save text files">
+        <classes>
+            <class name="com.epam.poc.kinvey.SaveFileTest" />
+        </classes>
+    </test>
+</suite>

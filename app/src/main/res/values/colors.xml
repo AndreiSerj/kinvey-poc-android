@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#683dbb</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#683dbb</color>
+
+    <color name="grayLite">#e5e5e5</color>
+
+    <color name="credbutton_backcolor">#683dbb</color>
+    <color name="warning_color">#f4511e</color>
+    <color name="hint_color">#42000000</color>
+    <color name="success_color">#009688</color>
+</resources>
